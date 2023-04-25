@@ -41,3 +41,9 @@ themeToggleBtn.addEventListener("click", function () {
     }
   }
 });
+
+
+// Set copyrights year
+document.getElementById("copyright-year").innerHTML = new Date().getFullYear();
+
+// Set current page in navbar
